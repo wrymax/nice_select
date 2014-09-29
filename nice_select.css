@@ -22,6 +22,10 @@ a.nice-select-selected {
 	text-decoration: none;
 	border-bottom: 0;
 }
+a.nice-select-selected.chosen {
+	background-color: rgb(120, 200, 235);
+	border-color: rgb(120, 200, 235);
+}
 a.nice-select-selected.hovered {
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
