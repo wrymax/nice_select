@@ -1,3 +1,5 @@
+/*
+ * for scss
 // $light_blue: rgb(120, 200, 235)
 // $gray_title: #666;
 // $light_gray: #F8F8F8;
@@ -5,10 +7,12 @@
 // $light_gray_d: #DDD;
 // $light_gray_c: #CCC;
 // $light_gray_b: #BBB;
+*/
 
 .nice-select {
 	float: left;
 	position: relative;
+	width: 140px;
 }
 a.nice-select-selected {
 	display: block;
@@ -18,7 +22,7 @@ a.nice-select-selected {
 	border-radius: 20px;
 	color: white;
 	text-align: center;
-	width: 140px;
+	width: 136px;
 	text-decoration: none;
 	border-bottom: 0;
 }
@@ -41,8 +45,8 @@ a.nice-select-selected.hovered {
 	border-top-left-radius: 0;
 	border-top-right-radius: 0;
 	position: absolute;
-	top: 48px;
-	left: 8px;
+	top: 38px;
+	left: 0;
 	z-index: 100;
 	background-color: #F8F8F8;
 	display: none;
@@ -50,7 +54,7 @@ a.nice-select-selected.hovered {
 a.nice-select-option {
 	display: block;
 	line-height: 26px;
-	width: 140px;
+	width: 136px;
 	color: #666;
 	text-decoration: none;
 	text-indent: 20px;
