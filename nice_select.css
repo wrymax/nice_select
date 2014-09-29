@@ -1,0 +1,56 @@
+// $light_blue: rgb(120, 200, 235)
+// $gray_title: #666;
+// $light_gray: #F8F8F8;
+// $light_gray_e: #EEE;
+// $light_gray_d: #DDD;
+// $light_gray_c: #CCC;
+// $light_gray_b: #BBB;
+
+.nice-select {
+	float: left;
+	position: relative;
+}
+a.nice-select-selected {
+	display: block;
+	line-height: 38px;
+	border: 2px solid black;
+	background-color: black;
+	border-radius: 20px;
+	color: white;
+	text-align: center;
+	width: 140px;
+	text-decoration: none;
+	border-bottom: 0;
+}
+a.nice-select-selected.hovered {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	background-color: #F8F8F8;
+	border-color: rgb(120, 200, 235);
+	color: #666;
+}
+.nice-select-options {
+	display: block;
+	border: 2px solid rgb(120, 200, 235);
+	border-top: 0;
+	border-radius: 20px;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	position: absolute;
+	top: 48px;
+	left: 8px;
+	z-index: 100;
+	background-color: #F8F8F8;
+	display: none;
+}
+a.nice-select-option {
+	display: block;
+	line-height: 26px;
+	width: 140px;
+	color: #666;
+	text-decoration: none;
+	text-indent: 20px;
+}
+a.nice-select-option:hover {
+	color: #999;
+}
